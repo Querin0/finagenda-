@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>FinAgenda – agenda, bicos e finanças</title>
+<meta name="description" content="FinAgenda: aplicativo para organizar agenda pessoal, bicos e finanças em um só lugar.">
+<style>
+:root{--bg:#F7F5EF;--fg:#1B2A27;--muted:#4A6660;--brand:#0F5C4D;--line:#DCD8CB;--card:#FFFFFF;color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0E1614;--fg:#E8EFEC;--muted:#A5BDB7;--brand:#5CC2A9;--line:#2A3A36;--card:#16221F;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0E1614;--fg:#E8EFEC;--muted:#A5BDB7;--brand:#5CC2A9;--line:#2A3A36;--card:#16221F;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:720px;margin:0 auto;padding:40px 20px 64px}
+.hero{display:flex;align-items:center;gap:20px;flex-wrap:wrap}
+h1{font-size:2.4rem;line-height:1.1;margin:0;color:var(--brand)}
+.tag{color:var(--muted);margin:4px 0 0;font-size:1.1rem}
+h2{font-size:1.2rem;margin:2.2rem 0 .4rem;padding-top:1.2rem;border-top:1px solid var(--line)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-top:12px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px}
+.card strong{display:block;color:var(--brand);margin-bottom:2px}
+p{margin:.5rem 0}
+a{color:var(--brand)}
+footer{margin-top:2.5rem;padding-top:1.2rem;border-top:1px solid var(--line);color:var(--muted);font-size:.95rem}
+footer a{margin-right:16px}
+</style>
+</head>
+<body>
+<main>
+<div class="hero">
+<svg width="88" height="88" viewBox="0 0 120 120" role="img" aria-label="Logotipo do FinAgenda"><rect width="120" height="120" rx="28" fill="#0F5C4D"/><rect x="24" y="30" width="60" height="56" rx="10" fill="#FFFFFF"/><path d="M24 40a10 10 0 0 1 10-10h40a10 10 0 0 1 10 10v6H24z" fill="#F5B83D"/><rect x="38" y="22" width="7" height="14" rx="3.5" fill="#0B3F35" stroke="#FFFFFF" stroke-width="2"/><rect x="63" y="22" width="7" height="14" rx="3.5" fill="#0B3F35" stroke="#FFFFFF" stroke-width="2"/><rect x="34" y="56" width="32" height="5" rx="2.5" fill="#0F5C4D"/><rect x="34" y="68" width="20" height="5" rx="2.5" fill="#BFD8D1"/><circle cx="84" cy="84" r="22" fill="#F5B83D" stroke="#0F5C4D" stroke-width="5"/><path d="M74 84l7 7 12-14" fill="none" stroke="#0F5C4D" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+<div>
+<h1>FinAgenda</h1>
+<p class="tag">Agenda, bicos e finanças em um só lugar</p>
+</div>
+</div>
+
+<p style="margin-top:1.5rem">O FinAgenda é um aplicativo para quem quer organizar o dia a dia, acompanhar os trabalhos avulsos (bicos) e controlar o dinheiro sem precisar de várias ferramentas.</p>
+
+<h2>O que o app faz</h2>
+<div class="grid">
+<div class="card"><strong>Agenda pessoal</strong>Cadastre compromissos e lembretes e veja tudo organizado por dia.</div>
+<div class="card"><strong>Gestão de bicos</strong>Registre cada trabalho, as datas e os valores combinados.</div>
+<div class="card"><strong>Organização financeira</strong>Anote receitas e despesas e acompanhe para onde vai o seu dinheiro.</div>
+</div>
+
+<h2>Login e Google Agenda</h2>
+<p>O acesso ao FinAgenda é feito com a sua conta Google. Se você escolher ativar a integração com o Google Agenda, o app cria uma agenda separada chamada “FinAgenda” na sua conta e coloca nela os seus compromissos e bicos. O app só acessa essa agenda criada por ele. Seus outros eventos do Google Agenda não são lidos nem alterados.</p>
+<p>Você pode desfazer a integração a qualquer momento, nas configurações da sua conta Google.</p>
+
+<h2>Seus dados</h2>
+<p>As informações que você cadastra ficam armazenadas de forma segura no Firebase, serviço do Google, e são usadas somente para o app funcionar. Não vendemos dados pessoais. Os detalhes estão na Política de Privacidade.</p>
+
+<footer>
+<p><a href="privacidade.html">Política de Privacidade</a><a href="termos.html">Termos de Serviço</a></p>
+<p>Contato: <a href="mailto:W.jr8@hotmail.com">W.jr8@hotmail.com</a></p>
+<p>© 2026 FinAgenda</p>
+</footer>
+</main>
+</body>
+</html>
